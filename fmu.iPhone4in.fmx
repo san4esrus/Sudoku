@@ -1,0 +1,389 @@
+inherited fm_iPhone4in: Tfm_iPhone4in
+  ClientHeight = 548
+  ClientWidth = 320
+  DesignerMasterStyle = 0
+  inherited tc: TTabControl
+    Enabled = False
+    Size.Width = 320.000000000000000000
+    Size.Height = 548.000000000000000000
+    Sizes = (
+      320s
+      522s
+      320s
+      522s
+      320s
+      522s
+      320s
+      522s)
+    inherited tc_menu: TTabItem
+      Size.Width = 80.000000000000000000
+      Size.Height = 26.000000000000000000
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited Layout1: TLayout
+        Size.Width = 320.000000000000000000
+        inherited l_name: TLabel
+          Size.Width = 320.000000000000000000
+        end
+        inherited bu_info: TButton
+          Position.X = 276.000000000000000000
+        end
+      end
+      inherited Layout2: TLayout
+        Size.Width = 320.000000000000000000
+        Size.Height = 449.000000000000000000
+        inherited bu_easy: TButton
+          Size.Width = 120.000000000000000000
+        end
+        inherited bu_hard: TButton
+          Size.Width = 120.000000000000000000
+        end
+        inherited bu_averege: TButton
+          Size.Width = 120.000000000000000000
+        end
+      end
+    end
+    inherited tc_easy: TTabItem
+      Size.Width = 80.000000000000000000
+      Size.Height = 26.000000000000000000
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited ScaledLayout1: TScaledLayout
+        Padding.Left = 3.000000000000000000
+        OriginalWidth = 320.000000000000000000
+        OriginalHeight = 499.000000000000000000
+        Size.Width = 320.000000000000000000
+        Size.Height = 522.000000000000000000
+        inherited GridLayout1: TGridLayout
+          Anchors = [akTop]
+          Padding.Left = 3.000000000000000000
+          Margins.Left = 3.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 2.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 3.576919555664063000
+          Position.Y = 10.000000000000000000
+          TabOrder = 6
+          inherited A1: TEdit
+            Position.X = 3.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited A2: TEdit
+            Position.X = 44.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit3: TEdit
+            TextSettings.Font.StyleExt = {04040000000000000004000000}
+            Position.X = 85.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit12: TEdit
+            Position.X = 3.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit13: TEdit
+            Position.X = 44.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited A3: TEdit
+            Position.X = 85.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit25: TEdit
+            Position.X = 3.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit26: TEdit
+            Position.X = 44.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit27: TEdit
+            Position.X = 85.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+        end
+        inherited GridLayout2: TGridLayout
+          Padding.Left = 3.000000000000000000
+          Position.Y = 8.000000000000000000
+          inherited Edit4: TEdit
+            Position.X = 3.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit5: TEdit
+            Position.X = 44.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit6: TEdit
+            Position.X = 85.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit7: TEdit
+            Position.X = 3.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit8: TEdit
+            Position.X = 44.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit9: TEdit
+            Position.X = 85.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit10: TEdit
+            Position.X = 3.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit11: TEdit
+            Position.X = 44.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit15: TEdit
+            Position.X = 85.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+        end
+        inherited GridLayout3: TGridLayout
+          Padding.Left = 3.000000000000000000
+          Position.Y = 8.000000000000000000
+          inherited Edit16: TEdit
+            Position.X = 3.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit17: TEdit
+            Position.X = 44.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit18: TEdit
+            Position.X = 85.000000000000000000
+          end
+          inherited Edit19: TEdit
+            Position.X = 3.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit20: TEdit
+            Position.X = 44.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit21: TEdit
+            Position.X = 85.000000000000000000
+          end
+          inherited Edit22: TEdit
+            Position.X = 3.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit23: TEdit
+            Position.X = 44.000000000000000000
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit24: TEdit
+            Position.X = 85.000000000000000000
+          end
+        end
+        inherited GridLayout4: TGridLayout
+          Position.X = 8.000000000000000000
+          TabOrder = 10
+          inherited Edit28: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit29: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit30: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit31: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit32: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit33: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit34: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit35: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit36: TEdit
+            Size.Height = 30.000000000000000000
+          end
+        end
+        inherited GridLayout5: TGridLayout
+          TabOrder = 3
+          inherited Edit444: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit38: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit39: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit40: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit41: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit42: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit43: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit44: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit45: TEdit
+            Size.Height = 30.000000000000000000
+          end
+        end
+        inherited GridLayout6: TGridLayout
+          inherited Edit46: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit47: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit49: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit50: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit52: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit53: TEdit
+            Size.Height = 30.000000000000000000
+          end
+        end
+        inherited GridLayout7: TGridLayout
+          Position.X = 8.000000000000000000
+          TabOrder = 7
+          inherited Edit55: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit56: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit57: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit58: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit59: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit60: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit61: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit62: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit63: TEdit
+            Size.Height = 30.000000000000000000
+          end
+        end
+        inherited GridLayout8: TGridLayout
+          TabOrder = 4
+          inherited Edit64: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit65: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit66: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit67: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit68: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit69: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit70: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit71: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit72: TEdit
+            Size.Height = 30.000000000000000000
+          end
+        end
+        inherited GridLayout9: TGridLayout
+          inherited Edit73: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit74: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit76: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit77: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit79: TEdit
+            Size.Height = 30.000000000000000000
+          end
+          inherited Edit80: TEdit
+            Size.Height = 30.000000000000000000
+          end
+        end
+        inherited bu_easy_back: TButton
+          Position.X = 43.000000000000000000
+          Size.Height = 22.000000000000000000
+          TabOrder = 9
+        end
+        inherited Button2: TButton
+          Position.X = 204.000000000000000000
+          Size.Height = 22.000000000000000000
+          TabOrder = 8
+        end
+      end
+    end
+    inherited tc_averege: TTabItem
+      Size.Width = 80.000000000000000000
+      Size.Height = 26.000000000000000000
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited ScaledLayout2: TScaledLayout
+        Size.Width = 320.000000000000000000
+        Size.Height = 522.000000000000000000
+        inherited bu_everege_back: TButton
+          Size.Height = 22.000000000000000000
+        end
+        inherited Button4: TButton
+          Size.Height = 22.000000000000000000
+        end
+      end
+    end
+    inherited tc_hard: TTabItem
+      Size.Width = 80.000000000000000000
+      Size.Height = 26.000000000000000000
+      ExplicitSize.cx = 69.000000000000000000
+      ExplicitSize.cy = 26.000000000000000000
+      inherited ScaledLayout3: TScaledLayout
+        Size.Width = 320.000000000000000000
+        Size.Height = 522.000000000000000000
+        inherited bu_hard_back: TButton
+          Size.Height = 22.000000000000000000
+        end
+        inherited Button6: TButton
+          Size.Height = 22.000000000000000000
+        end
+      end
+    end
+  end
+end

@@ -1,0 +1,4226 @@
+object fm: Tfm
+  Left = 0
+  Top = 0
+  Caption = 'fm'
+  ClientHeight = 606
+  ClientWidth = 381
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object tc: TTabControl
+    Align = Client
+    Size.Width = 381.000000000000000000
+    Size.Height = 606.000000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 1
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      381s
+      556s
+      381s
+      556s
+      381s
+      556s
+      381s
+      556s)
+    object tc_menu: TTabItem
+      AutoSize = False
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 50.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'menu'
+      object Layout1: TLayout
+        Align = Top
+        Size.Width = 381.000000000000000000
+        Size.Height = 73.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object l_name: TLabel
+          Align = Contents
+          StyledSettings = [Style, FontColor]
+          Locked = True
+          Size.Width = 381.000000000000000000
+          Size.Height = 73.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Bahnschrift'
+          TextSettings.Font.Size = 50.000000000000000000
+          TextSettings.HorzAlign = Center
+          Text = #1057#1091#1076#1086#1082#1091
+          TabOrder = 0
+        end
+        object bu_info: TButton
+          Align = Right
+          Position.X = 337.000000000000000000
+          Size.Width = 44.000000000000000000
+          Size.Height = 73.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'infotoolbutton'
+          TabOrder = 1
+          Text = 'Button1'
+        end
+      end
+      object Layout2: TLayout
+        Align = Client
+        Size.Width = 381.000000000000000000
+        Size.Height = 483.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object bu_easy: TButton
+          Align = Top
+          StyledSettings = [Style, FontColor]
+          Margins.Left = 100.000000000000000000
+          Margins.Top = 75.000000000000000000
+          Margins.Right = 100.000000000000000000
+          Position.X = 100.000000000000000000
+          Position.Y = 75.000000000000000000
+          Size.Width = 181.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = #1051#1077#1075#1082#1080#1081
+          TextSettings.Font.Family = 'Bahnschrift'
+          TextSettings.Font.Size = 26.000000000000000000
+          OnClick = bu_easyClick
+        end
+        object bu_hard: TButton
+          Align = Top
+          StyledSettings = [Style, FontColor]
+          Margins.Left = 100.000000000000000000
+          Margins.Top = 75.000000000000000000
+          Margins.Right = 100.000000000000000000
+          Position.X = 100.000000000000000000
+          Position.Y = 325.000000000000000000
+          Size.Width = 181.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = #1058#1103#1078#1077#1083#1099#1081
+          TextSettings.Font.Family = 'Bahnschrift'
+          TextSettings.Font.Size = 26.000000000000000000
+          OnClick = bu_hardClick
+        end
+        object bu_averege: TButton
+          Align = Top
+          StyledSettings = [Style, FontColor]
+          Margins.Left = 100.000000000000000000
+          Margins.Top = 75.000000000000000000
+          Margins.Right = 100.000000000000000000
+          Position.X = 100.000000000000000000
+          Position.Y = 200.000000000000000000
+          Size.Width = 181.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = #1057#1088#1077#1076#1085#1080#1081
+          TextSettings.Font.Family = 'Bahnschrift'
+          TextSettings.Font.Size = 26.000000000000000000
+          OnClick = bu_averegeClick
+        end
+      end
+    end
+    object tc_easy: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 44.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'easy'
+      ExplicitSize.cx = 44.000000000000000000
+      ExplicitSize.cy = 50.000000000000000000
+      object ScaledLayout1: TScaledLayout
+        Align = Contents
+        OriginalWidth = 381.000000000000000000
+        OriginalHeight = 556.000000000000000000
+        Size.Width = 381.000000000000000000
+        Size.Height = 556.000000000000000000
+        Size.PlatformDefault = False
+        object GridLayout1: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          object A1: TEdit
+            Tag = 1
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object A2: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object Edit3: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '8'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, FontColor]
+          end
+          object Edit12: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '4'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit13: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '5'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object A3: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object Edit25: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit26: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '6'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit27: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '1'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout2: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          object Edit4: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '4'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit5: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '5'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit6: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object Edit7: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '6'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit8: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '1'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit9: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object Edit10: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object Edit11: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '7'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit15: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '3'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout3: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object Edit16: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '7'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit17: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object Edit18: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '1'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit19: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit20: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '3'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit21: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object Edit22: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '2'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit23: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object Edit24: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+        end
+        object GridLayout4: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.Y = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          object Edit28: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object Edit29: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '7'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit30: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit31: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '6'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit32: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '8'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit33: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+          object Edit34: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '3'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit35: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '2'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit36: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style]
+          end
+        end
+        object GridLayout5: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 125.000000000000000000
+          Position.Y = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          object Edit444: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '5'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit38: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit39: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '8'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit40: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit41: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '2'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit42: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '4'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit43: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit44: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit45: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '7'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout6: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 250.000000000000000000
+          Position.Y = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object Edit46: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit47: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '2'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit48: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit49: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit50: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit51: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '7'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit52: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '5'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit53: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '8'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit54: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout7: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.Y = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          object Edit55: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '7'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit56: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit57: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '6'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit58: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit59: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit60: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '3'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit61: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '8'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit62: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit63: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '2'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout8: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 125.000000000000000000
+          Position.Y = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object Edit64: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit65: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit66: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '5'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit67: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '7'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit68: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '8'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit69: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '1'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit70: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '3'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit71: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit72: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout9: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 250.000000000000000000
+          Position.Y = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Edit73: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit74: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '4'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit75: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit76: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit77: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit78: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit79: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            ReadOnly = True
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            Text = '1'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Enabled = False
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit80: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit81: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object bu_easy_back: TButton
+          Align = Left
+          StyledSettings = [Style, FontColor]
+          Margins.Left = 40.000000000000000000
+          Margins.Top = 425.000000000000000000
+          Margins.Bottom = 75.000000000000000000
+          Position.X = 40.000000000000000000
+          Position.Y = 425.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 56.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          Text = #1053#1072#1079#1072#1076
+          TextSettings.Font.Family = 'Bahnschrift'
+          TextSettings.Font.Size = 25.000000000000000000
+          OnClick = back_to_menu
+        end
+        object Button2: TButton
+          Align = Left
+          Margins.Left = 40.000000000000000000
+          Margins.Top = 425.000000000000000000
+          Margins.Bottom = 75.000000000000000000
+          Position.X = 201.000000000000000000
+          Position.Y = 425.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 56.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          Text = 'Button1'
+          OnClick = Button2Click
+        end
+      end
+    end
+    object tc_averege: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 62.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'averege'
+      ExplicitSize.cx = 62.000000000000000000
+      ExplicitSize.cy = 50.000000000000000000
+      object ScaledLayout2: TScaledLayout
+        Align = Contents
+        OriginalWidth = 381.000000000000000000
+        OriginalHeight = 556.000000000000000000
+        Size.Width = 381.000000000000000000
+        Size.Height = 556.000000000000000000
+        Size.PlatformDefault = False
+        object GridLayout10: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          object Edit82: TEdit
+            Tag = 1
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit83: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit84: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit85: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit86: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit87: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit88: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit89: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit90: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout11: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          object Edit91: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit92: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit93: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit94: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit95: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit96: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit97: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit98: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit99: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout12: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object Edit100: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit101: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit102: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit103: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit104: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit105: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit106: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit107: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit108: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout13: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.Y = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          object Edit109: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit110: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit111: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit112: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit113: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit114: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit115: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit116: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit117: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout14: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 125.000000000000000000
+          Position.Y = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          object Edit118: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit119: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit120: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit121: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit122: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit123: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit124: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit125: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit126: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout15: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 250.000000000000000000
+          Position.Y = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object Edit127: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit128: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit129: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit130: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit131: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit132: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit133: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit134: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit135: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout16: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.Y = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          object Edit136: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit137: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit138: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit139: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit140: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit141: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit142: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit143: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit144: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout17: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 125.000000000000000000
+          Position.Y = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object Edit145: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit146: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit147: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit148: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit149: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit150: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit151: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit152: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit153: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout18: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 250.000000000000000000
+          Position.Y = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Edit154: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit155: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit156: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit157: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit158: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit159: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit160: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit161: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit162: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object bu_everege_back: TButton
+          Align = Left
+          StyledSettings = [Style, FontColor]
+          Margins.Left = 40.000000000000000000
+          Margins.Top = 425.000000000000000000
+          Margins.Bottom = 75.000000000000000000
+          Position.X = 40.000000000000000000
+          Position.Y = 425.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 56.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          Text = #1053#1072#1079#1072#1076
+          TextSettings.Font.Family = 'Bahnschrift'
+          TextSettings.Font.Size = 25.000000000000000000
+          OnClick = back_to_menu
+        end
+        object Button4: TButton
+          Align = Left
+          Margins.Left = 40.000000000000000000
+          Margins.Top = 425.000000000000000000
+          Margins.Bottom = 75.000000000000000000
+          Position.X = 201.000000000000000000
+          Position.Y = 425.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 56.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          Text = 'Button1'
+        end
+      end
+    end
+    object tc_hard: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 45.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'hard'
+      ExplicitSize.cx = 45.000000000000000000
+      ExplicitSize.cy = 50.000000000000000000
+      object ScaledLayout3: TScaledLayout
+        Align = Contents
+        OriginalWidth = 381.000000000000000000
+        OriginalHeight = 556.000000000000000000
+        Size.Width = 381.000000000000000000
+        Size.Height = 556.000000000000000000
+        Size.PlatformDefault = False
+        object GridLayout19: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          object Edit163: TEdit
+            Tag = 1
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit164: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit165: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit166: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit167: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit168: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit169: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit170: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit171: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout20: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          object Edit172: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit173: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit174: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit175: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit176: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit177: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit178: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit179: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit180: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout21: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object Edit181: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit182: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit183: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit184: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit185: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit186: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit187: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit188: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit189: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout22: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.Y = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          object Edit190: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit191: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit192: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit193: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit194: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit195: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit196: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit197: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit198: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout23: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 125.000000000000000000
+          Position.Y = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          object Edit199: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit200: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit201: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit202: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit203: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit204: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit205: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit206: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit207: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout24: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 250.000000000000000000
+          Position.Y = 125.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object Edit208: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit209: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit210: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit211: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit212: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit213: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit214: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit215: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit216: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout25: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.Y = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          object Edit217: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 0
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit218: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit219: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit220: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit221: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit222: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit223: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit224: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit225: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout26: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 125.000000000000000000
+          Position.Y = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object Edit226: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit227: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit228: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit229: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit230: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit231: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit232: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit233: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit234: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object GridLayout27: TGridLayout
+          EnableDragHighlight = False
+          ItemHeight = 41.000000000000000000
+          ItemWidth = 41.000000000000000000
+          Orientation = Horizontal
+          Position.X = 250.000000000000000000
+          Position.Y = 250.000000000000000000
+          Size.Width = 129.000000000000000000
+          Size.Height = 123.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Edit235: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 16
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit236: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 15
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit237: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 14
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit238: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 13
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit239: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 12
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit240: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 11
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 41.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit241: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 10
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit242: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 9
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 41.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+          object Edit243: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            TabOrder = 8
+            KeyboardType = NumberPad
+            MaxLength = 1
+            FilterChar = '1 2 3 4 5 6 7 8 9'
+            TextSettings.Font.Size = 25.000000000000000000
+            TextSettings.HorzAlign = Center
+            Position.X = 82.000000000000000000
+            Position.Y = 82.000000000000000000
+            Size.Width = 41.000000000000000000
+            Size.Height = 41.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, Style, FontColor]
+          end
+        end
+        object bu_hard_back: TButton
+          Align = Left
+          StyledSettings = [Style, FontColor]
+          Margins.Left = 40.000000000000000000
+          Margins.Top = 425.000000000000000000
+          Margins.Bottom = 75.000000000000000000
+          Position.X = 40.000000000000000000
+          Position.Y = 425.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 56.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          Text = #1053#1072#1079#1072#1076
+          TextSettings.Font.Family = 'Bahnschrift'
+          TextSettings.Font.Size = 25.000000000000000000
+          OnClick = back_to_menu
+        end
+        object Button6: TButton
+          Align = Left
+          Margins.Left = 40.000000000000000000
+          Margins.Top = 425.000000000000000000
+          Margins.Bottom = 75.000000000000000000
+          Position.X = 201.000000000000000000
+          Position.Y = 425.000000000000000000
+          Size.Width = 121.000000000000000000
+          Size.Height = 56.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          Text = 'Button1'
+        end
+      end
+    end
+  end
+end
